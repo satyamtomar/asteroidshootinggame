@@ -23,7 +23,7 @@ function draw() {
   }
 
   for (let enemy of enemies) {
-    enemy.y += 2;
+    enemy.y += 1;
     rect(enemy.x, enemy.y, 10);
     if (enemy.y > height) {
       text("YOU LOSE", width / 2, height / 2);
