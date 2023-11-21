@@ -3,7 +3,7 @@ let enemies = [];
 let score = 0;
 let incrementSpeed=1;
 function setup() {
-  createCanvas(600, 800);
+  createCanvas(600, 600);
   setInterval(incSpeed,20000);
   setInterval(bulletsCreated,200)
   for (let i = 1; i <= 10; i++) {
